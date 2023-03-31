@@ -7,7 +7,7 @@ namespace Assessment2_1
         static void Main(string[] args)
         {
             Console.Write("Enter the existing plate: ");
-            string plate = Console.ReadLine();
+            string plate = Console.ReadLine()!;
             Console.Write("Enter the grouping number: ");
             int num = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(Program.LicensePlate(plate, num));
